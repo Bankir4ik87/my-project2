@@ -26,17 +26,13 @@
       width: 100%;
       background-color: $main-text-color;
 
-      transition: transform 0.3s;
-      transform: scale(
-        0
-      ); //the element will be reduced to 0% of its original size
+      transition: transform $effectDuration;
+      transform: scale(0);
       transform-origin: left;
     }
 
     &:hover::after {
-      transform: scale(
-        1
-      ); //When hovering, the element returns to its normal size
+      transform: scale(1);
     }
   }
 }

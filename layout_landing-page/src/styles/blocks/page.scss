@@ -1,5 +1,5 @@
 .page {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: $main-font-family;
   color: $main-text-color;
   font-size: 22px;
   line-height: 22px;
@@ -21,7 +21,7 @@
     right: 0;
     left: 0;
 
-    transition: all 0.3s;
+    transition: all $effectDuration;
     opacity: 0;
     transform: translateX(-100%);
     pointer-events: none;

@@ -28,6 +28,8 @@
     text-decoration: none;
     font-style: 16px;
     line-height: 22.4px;
+
+    @include hover(transform, scale(1.1));
   }
 
   &__call-to-odder {
